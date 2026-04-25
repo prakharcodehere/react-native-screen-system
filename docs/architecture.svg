@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 395" width="760" height="395">
+
+  <!-- Background -->
+  <rect width="760" height="395" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="380" y="32" text-anchor="middle"
+        font-family="'Segoe UI',system-ui,-apple-system,sans-serif"
+        font-size="14" font-weight="700" fill="#0f172a" letter-spacing="-0.3">
+    Architecture
+  </text>
+
+  <!-- ======= SCREENSYSTEMPROVIDER outer box ======= -->
+  <rect x="80" y="48" width="600" height="112" rx="10"
+        fill="#f0f9ff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="380" y="66" text-anchor="middle"
+        font-family="sans-serif" font-size="9" font-weight="700" fill="#1d4ed8" letter-spacing="1">
+    SCREENSYSTEMPROVIDER
+  </text>
+
+  <!-- FocusControllerProvider box -->
+  <rect x="96" y="72" width="176" height="74" rx="7"
+        fill="white" stroke="#6366f1" stroke-width="1.5"/>
+  <text x="184" y="96" text-anchor="middle"
+        font-family="sans-serif" font-size="9.5" font-weight="700" fill="#4338ca">FocusControllerProvider</text>
+  <text x="184" y="110" text-anchor="middle"
+        font-family="sans-serif" font-size="8.5" fill="#64748b">field registry</text>
+  <text x="184" y="122" text-anchor="middle"
+        font-family="sans-serif" font-size="8.5" fill="#64748b">focus navigation</text>
+
+  <!-- ScrollCoordinatorProvider box -->
+  <rect x="292" y="72" width="196" height="74" rx="7"
+        fill="white" stroke="#6366f1" stroke-width="1.5"/>
+  <text x="390" y="96" text-anchor="middle"
+        font-family="sans-serif" font-size="9.5" font-weight="700" fill="#4338ca">ScrollCoordinatorProvider</text>
+  <text x="390" y="110" text-anchor="middle"
+        font-family="sans-serif" font-size="8.5" fill="#64748b">scroll view registry</text>
+  <text x="390" y="122" text-anchor="middle"
+        font-family="sans-serif" font-size="8.5" fill="#64748b">scroll-to-field logic</text>
+
+  <!-- ScreenSystemContext box -->
+  <rect x="510" y="72" width="154" height="74" rx="7"
+        fill="white" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="587" y="96" text-anchor="middle"
+        font-family="sans-serif" font-size="9.5" font-weight="700" fill="#15803d">ScreenSystemContext</text>
+  <text x="587" y="110" text-anchor="middle"
+        font-family="sans-serif" font-size="8.5" fill="#64748b">app-level defaults</text>
+  <text x="587" y="122" text-anchor="middle"
+        font-family="sans-serif" font-size="8.5" fill="#64748b">keyboard behaviors</text>
+
+  <!-- ======= BUS LINES (provider → consumers) ======= -->
+  <line x1="380" y1="160" x2="380" y2="204" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="97"  y1="204" x2="663" y2="204" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="97"  y1="204" x2="97"  y2="219" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="285" y1="204" x2="285" y2="219" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="473" y1="204" x2="473" y2="219" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="663" y1="204" x2="663" y2="219" stroke="#94a3b8" stroke-width="1.5"/>
+
+  <!-- ======= CONSUMER BOXES ======= -->
+
+  <!-- ScreenContainer -->
+  <rect x="20" y="219" width="154" height="58" rx="7"
+        fill="#fafafa" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="97" y="242" text-anchor="middle"
+        font-family="sans-serif" font-size="10.5" font-weight="700" fill="#0f172a">ScreenContainer</text>
+  <text x="97" y="257" text-anchor="middle"
+        font-family="sans-serif" font-size="9" fill="#64748b">keyboard + inset layout</text>
+  <text x="97" y="295" text-anchor="middle"
+        font-family="sans-serif" font-size="8" fill="#94a3b8">useKeyboardInsets</text>
+  <text x="97" y="306" text-anchor="middle"
+        font-family="sans-serif" font-size="8" fill="#94a3b8">useScreenSystem</text>
+
+  <!-- StickyActionBar -->
+  <rect x="208" y="219" width="154" height="58" rx="7"
+        fill="#fafafa" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="285" y="242" text-anchor="middle"
+        font-family="sans-serif" font-size="10.5" font-weight="700" fill="#0f172a">StickyActionBar</text>
+  <text x="285" y="257" text-anchor="middle"
+        font-family="sans-serif" font-size="9" fill="#64748b">keyboard + safe area</text>
+  <text x="285" y="295" text-anchor="middle"
+        font-family="sans-serif" font-size="8" fill="#94a3b8">useKeyboardInsets</text>
+  <text x="285" y="306" text-anchor="middle"
+        font-family="sans-serif" font-size="8" fill="#94a3b8">useScreenSystem</text>
+
+  <!-- ScreenScrollView -->
+  <rect x="396" y="219" width="154" height="58" rx="7"
+        fill="#fafafa" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="473" y="242" text-anchor="middle"
+        font-family="sans-serif" font-size="10.5" font-weight="700" fill="#0f172a">ScreenScrollView</text>
+  <text x="473" y="257" text-anchor="middle"
+        font-family="sans-serif" font-size="9" fill="#64748b">scroll coordination</text>
+  <text x="473" y="295" text-anchor="middle"
+        font-family="sans-serif" font-size="8" fill="#94a3b8">useScrollCoordinator</text>
+
+  <!-- useFocusableField -->
+  <rect x="586" y="219" width="154" height="58" rx="7"
+        fill="#fafafa" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="663" y="242" text-anchor="middle"
+        font-family="sans-serif" font-size="10.5" font-weight="700" fill="#0f172a">useFocusableField</text>
+  <text x="663" y="257" text-anchor="middle"
+        font-family="sans-serif" font-size="9" fill="#64748b">input focus + scroll</text>
+  <text x="663" y="295" text-anchor="middle"
+        font-family="sans-serif" font-size="8" fill="#94a3b8">useFocusController</text>
+  <text x="663" y="306" text-anchor="middle"
+        font-family="sans-serif" font-size="8" fill="#94a3b8">useScrollCoordinator</text>
+
+  <!-- ======= STANDALONE SECTION ======= -->
+  <line x1="40" y1="330" x2="720" y2="330" stroke="#f1f5f9" stroke-width="1.5"/>
+
+  <text x="380" y="350" text-anchor="middle"
+        font-family="sans-serif" font-size="10" fill="#64748b">
+    useScreenState + ScreenStateView — screen state rendering (loading / error / empty / content)
+  </text>
+  <text x="380" y="370" text-anchor="middle"
+        font-family="sans-serif" font-size="10" fill="#94a3b8">
+    useKeyboardInsets — works standalone, no provider required
+  </text>
+
+</svg>
