@@ -17,7 +17,7 @@ Stop rewriting keyboard, focus, safe-area, and sticky-action logic on every scre
 ---
 
 <p align="center">
-  <img src="./docs/layout.svg" alt="Screen layout diagram" width="760"/>
+  <img src="https://raw.githubusercontent.com/prakharcodehere/react-native-screen-system/main/docs/layout.svg" alt="Screen layout diagram" width="760"/>
 </p>
 
 ---
@@ -161,13 +161,13 @@ export function LoginScreen() {
 ---
 
 <p align="center">
-  <img src="./docs/keyboard.svg" alt="Keyboard behavior diagram" width="760"/>
+  <img src="https://raw.githubusercontent.com/prakharcodehere/react-native-screen-system/main/docs/keyboard.svg" alt="Keyboard behavior diagram" width="760"/>
 </p>
 
 ---
 
 <p align="center">
-  <img src="./docs/states.svg" alt="Screen states diagram" width="760"/>
+  <img src="https://raw.githubusercontent.com/prakharcodehere/react-native-screen-system/main/docs/states.svg" alt="Screen states diagram" width="760"/>
 </p>
 
 ---
@@ -175,7 +175,7 @@ export function LoginScreen() {
 ## Architecture
 
 <p align="center">
-  <img src="./docs/architecture.svg" alt="Architecture diagram" width="760"/>
+  <img src="https://raw.githubusercontent.com/prakharcodehere/react-native-screen-system/main/docs/architecture.svg" alt="Architecture diagram" width="760"/>
 </p>
 
 `ScreenSystemProvider` sets up three contexts internally — `FocusControllerProvider`, `ScrollCoordinatorProvider`, and `ScreenSystemContext` — so every component and hook shares the same state without any manual wiring.
