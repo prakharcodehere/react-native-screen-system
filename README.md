@@ -242,6 +242,10 @@ Accepts all `ScrollViewProps`. Supports `forwardRef`.
 
 Bottom action area that stays visible above the keyboard and respects safe area.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/prakharcodehere/react-native-screen-system/main/docs/inset-stack.svg" alt="Bottom inset stack anatomy" width="760"/>
+</p>
+
 | Prop | Type | Default | Description |
 | --- | --- | --- | --- |
 | `keyboardAware` | `boolean` | `true` | Moves the action bar above the keyboard |
@@ -279,6 +283,10 @@ Renders different content based on screen state. Accepts either an explicit `sta
 ### `useFocusableField`
 
 Wires a `TextInput` into the focus system. Returns a `ref`, event handlers, and imperative focus helpers.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/prakharcodehere/react-native-screen-system/main/docs/focus-flow.svg" alt="Focus navigation diagram" width="760"/>
+</p>
 
 **Options:**
 
@@ -398,6 +406,10 @@ Each screen can override the global defaults:
 ```
 
 ### Custom safe area handling
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/prakharcodehere/react-native-screen-system/main/docs/safe-area.svg" alt="Safe area edge-to-edge diagram" width="760"/>
+</p>
 
 Use overrides when you manage safe area outside the component:
 
