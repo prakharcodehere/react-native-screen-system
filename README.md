@@ -160,6 +160,18 @@ export function LoginScreen() {
 
 ---
 
+<p align="center">
+  <img src="./docs/keyboard.svg" alt="Keyboard behavior diagram" width="760"/>
+</p>
+
+---
+
+<p align="center">
+  <img src="./docs/states.svg" alt="Screen states diagram" width="760"/>
+</p>
+
+---
+
 ## Architecture
 
 <p align="center">
